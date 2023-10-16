@@ -6,9 +6,8 @@ namespace C__A_Project
     {
         public Greyhound_Race()
         {
-            WindowState = FormWindowState.Maximized;
+            
             InitializeComponent();
-
         }
 
 
