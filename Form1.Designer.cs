@@ -78,7 +78,6 @@
             richTextBox1 = new RichTextBox();
             first = new Label();
             second = new Label();
-            third = new Label();
             SuspendLayout();
             // 
             // greyhoundLabel1
@@ -547,7 +546,7 @@
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(580, 262);
             richTextBox1.TabIndex = 38;
-            richTextBox1.Text = "RACE RESULTS\n\n\n\nFIRST =\n\n\n\nSECOND =\n\n\n\nTHIRD =";
+            richTextBox1.Text = "RACE RESULTS\n\n\n\nFIRST =\n\n\n\nLAST =\n\n\n\n";
             // 
             // first
             // 
@@ -563,28 +562,17 @@
             // 
             second.AutoSize = true;
             second.BackColor = SystemColors.InactiveCaption;
-            second.Location = new Point(1004, 161);
+            second.Location = new Point(1004, 162);
             second.Name = "second";
             second.Size = new Size(74, 18);
             second.TabIndex = 65;
             second.Text = "No Data";
-            // 
-            // third
-            // 
-            third.AutoSize = true;
-            third.BackColor = SystemColors.InactiveCaption;
-            third.Location = new Point(1004, 234);
-            third.Name = "third";
-            third.Size = new Size(74, 18);
-            third.TabIndex = 66;
-            third.Text = "No Data";
             // 
             // Greyhound_Race
             // 
             AutoScaleDimensions = new SizeF(11F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1493, 713);
-            Controls.Add(third);
             Controls.Add(second);
             Controls.Add(first);
             Controls.Add(label3);
@@ -695,6 +683,5 @@
         private RichTextBox richTextBox1;
         private Label first;
         private Label second;
-        private Label third;
     }
 }
