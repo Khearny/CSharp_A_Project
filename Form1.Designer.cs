@@ -211,7 +211,7 @@
             // 
             // greyhoundBar6
             // 
-            greyhoundBar6.Location = new Point(60, 527);
+            greyhoundBar6.Location = new Point(60, 526);
             greyhoundBar6.Margin = new Padding(5, 4, 5, 4);
             greyhoundBar6.Name = "greyhoundBar6";
             greyhoundBar6.Size = new Size(737, 28);

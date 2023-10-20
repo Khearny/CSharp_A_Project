@@ -3,6 +3,11 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace C__A_Project
 {
+    //First Name: Dogan
+    //Family Name: Bakar
+    //Student ID: 22185815
+    //Finish Date: 20/10/2023
+
     public partial class Greyhound_Race : Form
     {
         public Greyhound_Race()
